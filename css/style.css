@@ -1,0 +1,140 @@
+body > div {
+    background-color: #66f2be;
+}
+
+.page-head {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px 40px;
+    font-family: 'Delius Unicase', cursive;
+
+}
+
+.page-head a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 22pt;
+}
+
+.page-head ul {
+    margin-top: 8px;
+    list-style-type: none;
+    display: flex;
+}
+
+.page-head li {
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Delius Unicase', cursive;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.profile {
+    width: 100%;
+}
+
+.profile > p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12pt;
+    margin: 10px 15px 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 20pt;
+    margin-top: 20px;
+}
+
+.main {
+    height: 600px;
+    background-image: url("https://images.unsplash.com/photo-1458134692397-fc4217ad1dc5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-blend-mode: lighten;
+    background-color: rgba(255,255,255,0.6);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.slogan {
+    margin-left: 50px;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 30pt;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 2.5;
+}
+
+.problem {
+    height: 400px;
+}
+
+.green {
+    background-color: rgba(102, 242, 190, 0.5);
+    background-blend-mode: lighten;
+}
+
+.yellow {
+    background-color: rgba(255, 246, 141, 0.5);
+    background-blend-mode: lighten;
+}
+
+.red {
+    background-color: rgba(255, 101, 119, 0.5);
+    background-blend-mode: lighten;
+}
+
+.member {
+    width: 50%;
+    padding: 30px;
+}
+
+.lend-a-hand {
+    height: 700px;
+}
+
+.lend-a-hand ul {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15pt;
+}
+
+.lend-a-hand img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.member > img {
+    width: auto;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.team {
+    height: 700px;
+    background-image: url("https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-blend-mode: lighten;
+    background-color: rgba(255,255,255,0.6);
+    background-size: cover;
+}
+
+.main img {
+    margin-top: 50px;
+    margin-left: 10%;
+    opacity: 1.0;
+    width: auto;
+    height: 450px;
+}
