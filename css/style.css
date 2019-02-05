@@ -1,5 +1,6 @@
-body > div {
-    background-color: #66f2be;
+body>div {
+    background-color: #83DECD;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .page-head {
@@ -8,7 +9,6 @@ body > div {
     height: 60px;
     padding: 10px 40px;
     font-family: 'Delius Unicase', cursive;
-
 }
 
 .page-head a {
@@ -44,7 +44,7 @@ h3 {
     width: 100%;
 }
 
-.profile > p {
+.profile>p {
     margin-top: 10px;
     text-align: center;
     font-size: 12pt;
@@ -61,7 +61,7 @@ p {
     height: 600px;
     background-image: url("https://images.unsplash.com/photo-1458134692397-fc4217ad1dc5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
     background-blend-mode: lighten;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
@@ -77,21 +77,25 @@ p {
 }
 
 #problem {
-    height: 400px;
+    height: 340px;
+}
+
+#problem p, #lend-a-hand p {
+    font-size: 17.5pt
 }
 
 .green {
-    background-color: rgba(102, 242, 190, 0.5);
+    background-color: rgba(51, 166, 141, 0.5);
     background-blend-mode: lighten;
 }
 
 .yellow {
-    background-color: rgba(255, 246, 141, 0.5);
+    background-color: rgba(246, 209, 108, 0.5);
     background-blend-mode: lighten;
 }
 
 .red {
-    background-color: rgba(255, 101, 119, 0.5);
+    background-color: rgba(229, 59, 75, 0.5);
     background-blend-mode: lighten;
 }
 
@@ -118,7 +122,7 @@ p {
     margin-top: 100px;
 }
 
-.member > img {
+.member>img {
     width: auto;
     height: 150px;
     border-radius: 50%;
@@ -128,7 +132,7 @@ p {
     height: 700px;
     background-image: url("https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-blend-mode: lighten;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     background-size: cover;
     background-attachment: fixed;
 }
