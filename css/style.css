@@ -1,9 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body>div {
     background-color: #83DECD;
     font-family: 'Open Sans', sans-serif;
 }
 
 .page-head {
+    background-image: url("../img/aslearn_bar_element.png");
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     height: 60px;
@@ -67,13 +73,23 @@ p {
     overflow: hidden;
 }
 
-.slogan {
+.landing-slogan {
     margin-left: 50px;
     font-family: 'Delius Unicase', cursive;
-    font-size: 30pt;
+    font-size: 24pt;
     text-align: center;
     margin-top: 50px;
-    line-height: 2.5;
+    line-height: 2;
+}
+
+.landing-slogan>p {
+    font-size: 14pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#download-app-store>img {
+    height: 50px;
+    margin: 0;
 }
 
 #problem {
