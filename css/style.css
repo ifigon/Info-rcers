@@ -2,12 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body>div {
-    /* background-color: #83DECD; */
-}
-
 .page-head {
-    /* background-image: url("../img/aslearn_bar_element.png"); */
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -43,31 +38,10 @@ h3 {
     text-align: center;
 }
 
-.profile {
-    width: 100%;
-}
-
-.profile>p {
-    margin-top: 10px;
-    text-align: left;
-    font-size: 12pt;
-    margin: 10px 15px 10px;
-}
-
 p {
     text-align: left;
-    font-size: 20pt;
+    font-size:15pt;
     margin-top: 20px;
-}
-
-.main {
-    /* height: 600px; */
-    /* background-image: url("https://images.unsplash.com/photo-1458134692397-fc4217ad1dc5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"); */
-    background-blend-mode: lighten;
-    /* background-color: rgba(255, 255, 255, 0.6); */
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
 }
 
 .landing-slogan {
@@ -75,7 +49,6 @@ p {
     font-size: 24pt;
     text-align: left;
     margin-top: 100px;
-    /* line-height: 2; */
 }
 
 .landing-slogan>p {
@@ -88,33 +61,12 @@ p {
 }
 
 #problem {
-    /* height: 340px; */
     background-color: #feeabb;
 }
 
 #problem p, #lend-a-hand p {
     font-size: 15pt
 }
-
-/* .green {
-    background-color: rgba(51, 166, 141, 0.5);
-    background-blend-mode: lighten;
-}
-
-.yellow {
-    background-color: rgba(246, 209, 108, 0.5);
-    background-blend-mode: lighten;
-}
-
-.red {
-    background-color: rgba(229, 59, 75, 0.5);
-    background-blend-mode: lighten;
-} */
-
-/* .member {
-    width: 50%;
-    padding: 30px;
-} */
 
 #lend-a-hand {
     height: 600px;
@@ -134,31 +86,11 @@ p {
     margin-top: 100px;
 }
 
-.member>img {
-    width: auto;
-    height: 100px;
-    border-radius: 50%;
-}
-
-#team {
-    /* height: 700px; */
-    /* background-image: url("https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"); */
-    /* background-blend-mode: lighten; */
-    /* background-color: rgba(255, 255, 255, 0.6); */
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-}
-
 .main img {
     margin-top: 50px;
-    /* margin-left: 10%; */
-    opacity: 1.0;
     width: auto;
-    /* height: 450px; */
     height: 30vw;
-
 }
-
 
 /* fonts  */
 h2, .page-head, .landing-slogan {
@@ -182,7 +114,7 @@ body>div, .landing-slogan>p {
   font-size: 15pt;
 }
 
-.solution img {
+.solution img, #team img {
   height: auto;
   width: auto;
   max-width: 100px;
@@ -212,4 +144,14 @@ div .percentage {
 
 #team {
     background-color: #aeddd2;
+}
+
+#team p {
+    font-size: 12pt;
+}
+
+#team img {
+    width: auto;
+    height: 100px;
+    border-radius: 50%;
 }
