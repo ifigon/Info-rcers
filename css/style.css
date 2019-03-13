@@ -136,7 +136,7 @@ p {
 
 .member>img {
     width: auto;
-    height: 150px;
+    height: 100px;
     border-radius: 50%;
 }
 
@@ -173,7 +173,7 @@ body>div, .landing-slogan>p {
   background-image: url("../img/Group-1.png");
   background-blend-mode: lighten;
   background-color: rgba(255, 255, 255, 0.6);
-  background-size: cover; */
+  background-size: cover; 
   background-attachment: fixed;
   background-position: right top;
 }
