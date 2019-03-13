@@ -115,12 +115,15 @@ body>div, .landing-slogan>p {
   font-size: 15pt;
 }
 
+.solution img {
+    margin-left: 25%;
+}
+
 .solution img, #team img {
   height: auto;
   width: auto;
   max-width: 100px;
   max-height: 100px;
-  margin-left: 25%;
 }
 
 .desc {
@@ -145,12 +148,13 @@ div .percentage {
 }
 
 #team {
-    background-color: #aeddd2;
+    background-color: #cbb6cf;
+    text-align: center;
 }
 
-#team p {
+.prof-text p {
     font-size: 12pt;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 #team img {
@@ -170,5 +174,37 @@ div .percentage {
 }
 
 #lend-a-hand {
-    background-color: #cbb6cf;
+    background-color: #aeddd2;
+
+}
+
+#footer {
+    background-color: #473951;
+    text-align: center;
+}
+
+#footer img {
+    height: 50px;
+    width: auto;
+}
+
+.prof-text {
+    margin-top: 20px;
+}
+
+#functions h2 {
+    font-weight: bold;
+    text-align: left;
+}
+
+#functions img {
+    width: auto;
+    height: 70vh;
+    display:block;
+    margin:auto;
+}
+
+.function-text {
+    margin-top: auto;
+    margin-bottom: auto;
 }
