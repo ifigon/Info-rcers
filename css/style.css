@@ -75,7 +75,7 @@ p {
     font-size: 24pt;
     text-align: left;
     margin-top: 100px;
-    line-height: 2;
+    /* line-height: 2; */
 }
 
 .landing-slogan>p {
@@ -185,6 +185,27 @@ body>div, .landing-slogan>p {
   text-align: center;
 }
 
-main, .page-head {
+.main, .page-head {
   background-color: #d0f9f2;
+}
+
+.container {
+  width: 70vw;
+}
+
+div .percentage {
+  font-size: 40pt;
+}
+
+.section {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.solution img {
+  width: auto;
+  height: auto;
+  max-width: 90px;
+  max-height: 90px;
+
 }
