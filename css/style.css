@@ -48,8 +48,7 @@ p {
     margin-left: 50px;
     font-size: 24pt;
     text-align: left;
-    /* margin-top: 100px; */
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .landing-slogan>p {
@@ -68,29 +67,16 @@ p {
 #problem p, #lend-a-hand p {
     font-size: 15pt
 }
-/* 
-#lend-a-hand {
-    height: 600px;
-} */
 
 #lend-a-hand ul {
-    /* width: 40%;
-    margin-left: auto;
-    margin-right: auto; */
     font-size: 15pt;
 }
-/* 
-#lend-a-hand img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-} */
 
-.main img {
+.landing-devices {
     margin-top: 5%;
     width: auto;
-    height: 30vw;
+    max-height: 70vh;
+    min-height: 300px;
 }
 
 /* fonts  */
@@ -117,13 +103,18 @@ body>div, .landing-slogan>p {
 
 .solution img {
     margin-left: 25%;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#team img {
+    max-width: 130px;
+    max-height: 130px;
 }
 
 .solution img, #team img {
   height: auto;
   width: auto;
-  max-width: 100px;
-  max-height: 100px;
 }
 
 .desc {
@@ -138,8 +129,13 @@ body>div, .landing-slogan>p {
   width: 70vw;
 }
 
-div .percentage {
-  font-size: 40pt;
+.percentages {
+    margin-top: 50px;
+}
+
+.percentage {
+  font-size: 60pt;
+  font-family: 'Oswald', sans-serif;
 }
 
 .section {
@@ -154,12 +150,14 @@ div .percentage {
 
 .prof-text p {
     font-size: 12pt;
-    /* text-align: justify; */
+}
+
+#team a {
+    color: #7b7b7b;
 }
 
 #team img {
     width: auto;
-    height: 100px;
     border-radius: 50%;
 }
 
@@ -199,7 +197,7 @@ div .percentage {
 
 #functions img {
     width: auto;
-    height: 70vh;
+    height: 80vh;
     display:block;
     margin:auto;
 }
@@ -207,4 +205,11 @@ div .percentage {
 .function-text {
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.main .btn {
+    background-color: #ff7277;
+    height: 50px;
+    line-height: 35px;
+    color: white;
 }
