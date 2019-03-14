@@ -237,3 +237,12 @@ body>div, .landing-slogan>p {
     line-height: 35px;
     color: white;
 }
+
+.bold {
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#problem li {
+    font-size: 15pt;
+}
