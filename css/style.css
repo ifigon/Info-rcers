@@ -85,6 +85,8 @@ p {
     background-color: #feeabb;
 }
 
+
+
 #problem p, #lend-a-hand p {
     font-size: 15pt;
 }
@@ -244,5 +246,5 @@ body>div, .landing-slogan>p {
 }
 
 #problem li {
-    font-size: 15pt;
+    font-size: 12pt;
 }
