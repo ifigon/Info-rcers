@@ -55,7 +55,7 @@ p {
     height: 100vh;
     background-image: url("https://images.unsplash.com/photo-1458134692397-fc4217ad1dc5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
     background-blend-mode: lighten;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.9);
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
@@ -193,7 +193,7 @@ body>div, .landing-slogan>p {
 }
 
 #lend-a-hand {
-    background-color: #aeddd2;
+  background-color: #f6afb9;
 }
 
 #footer {
@@ -211,7 +211,7 @@ body>div, .landing-slogan>p {
 }
 
 #functions {
-    background-color: #f6afb9;
+    background-color: #aeddd2;
 }
 
 #functions h2 {
