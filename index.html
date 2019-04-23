@@ -17,22 +17,38 @@
 
 <body>
     <div>
-        <div class="page-head">
-            <h1>
-                <img src="img/favicon.png" alt="ASLearn octopus logo" />ASLearn
-            </h1>
-            <ul>
-                <li><a href="#problem">The Problem</a></li>
-                <li><a href="#solution">Our Solution</a></li>
-                <li><a href="#team">Meet the Team</a></li>
-                <li><a href="#lend-a-hand">Lend a Hand</a></li>
-            </ul>
-        </div>
+        <nav id="page-head" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="d-flex flex-grow-1">
+                <h1 class="navbar-brand d-lg-inline-block" href="#">
+                    <img src="img/favicon.png" width="40" height="40" alt="ASLearn octopus logo" />
+                    ASLearn
+                </h1>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item"><a href="#problem" class="nav-link m-2 menu-item nav-active">The Problem</a>
+                    </li>
+                    <li class="nav-item"><a href="#solution" class="nav-link m-2 menu-item nav-active">Our Solution</a>
+                    </li>
+                    <li class="nav-item"><a href="#team" class="nav-link m-2 menu-item nav-active">Meet the Team</a>
+                    </li>
+                    <li class="nav-item"><a href="#lend-a-hand" class="nav-link m-2 menu-item nav-active">Lend a
+                            Hand</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- </nav> -->
         <main>
             <div class="main section">
                 <div class="container">
                     <div class="d-flex">
-                        <img class="landing-devices" src="img/landing_page_devices-1.png" alt="iPhone and iPad" />
+                        <img class="landing-devices responsive" src="img/landing_page_devices-1.png"
+                            alt="iPhone and iPad" />
                         <div class="landing-slogan">
                             Teaching children ASL through interaction with the world around them
                             <p id="desc-hook">
@@ -42,7 +58,7 @@
                                 href="https://www.figma.com/proto/ERaWwpVrKx4Gu0PUyc0t5zi1/Capstone?node-id=56%3A1&scaling=min-zoom"
                                 target="_blank"><img src="img/download-app-button.png"
                                     alt="download from app store button" /></a>
-                            <a class='btn' href="#lend-a-hand" role="button">
+                            <a id='lend-btn' class='btn' href="#lend-a-hand" role="button">
                                 Lend a Hand
                             </a>
                         </div>
@@ -53,7 +69,7 @@
                 <div class="container">
                     <h2>The Problem</h2>
                     <p><span class="bold">Learning and teaching American Sign Language (ASL) with children
-                        is difficult,</span> but especially when…
+                            is difficult,</span> but especially when…
                         <ul>
                             <li>You are a child who is deaf or hard-of-hearing, but those around
                                 you have no prior knowledge of ASL</li>
@@ -126,32 +142,32 @@
             <div id="functions" class="section">
                 <div class="container">
                     <div class="row pt-5">
-                        <div class="function-text col-7">
+                        <div id="camera-func" class="function-text col-md-7 col-sm-12">
                             <h2>Camera</h2>
                             <p>Snap pictures of surrounding objects to get translations instantly.</p>
                         </div>
-                        <div class="col-5">
+                        <div class="col-md-5 col-sm-12">
                             <img src="img/screens/Camera.png" alt="support-icon" />
                         </div>
 
                     </div>
-                    <div class="row pt-5">
-                        <div class="col-5">
+                    <div id="trans-func" class="row pt-5">
+                        <div class="col-md-5 col-sm-12">
                             <img src="img/screens/Def - Dog.png" alt="support-icon" />
                         </div>
-                        <div class="function-text col-7">
+                        <div class="function-text col-md-7 col-sm-12">
                             <h2>ASL Translation</h2>
                             <p>View the ASL translation after taking a photo or exploring the dictionary.</p>
                         </div>
                     </div>
                     <div class="row pt-5">
-                        <div class="function-text col-7">
+                        <div id="dict-func" class="function-text col-md-7 col-sm-12">
                             <h2>Dictionary</h2>
                             <p>Search through the dictionary for translations in categories: ABC's,
                                 people, home, food, and animals.
                             </p>
                         </div>
-                        <div class="col-5">
+                        <div class="col-md-5 col-sm-12">
                             <img src="img/screens/Dict - Animals.png" alt="support-icon" />
                         </div>
 
@@ -162,7 +178,7 @@
                 <div class="container">
                     <h2>Lend a Hand</h2>
                     <div class="row pt-5">
-                        <div class="col-8">
+                        <div class="col-md-8 col-sm-12">
                             <p>If you would like to help us create this awesome app, please email one of us using our
                                 contact
                                 information below! We are looking for anyone who:</p>
@@ -173,7 +189,7 @@
                                 <li>Would love to test our app and give feedback</li>
                             </ul>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-12">
                             <img src="img/support.png" alt="support-icon" />
                         </div>
 
@@ -242,6 +258,16 @@
             </div>
         </main>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

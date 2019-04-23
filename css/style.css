@@ -2,38 +2,31 @@ html {
     scroll-behavior: smooth;
 }
 
-.page-head {
+#page-head {
     background-size: cover;
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    /* height: 60px; */
     padding: 10px 50px;
 }
 
-.page-head img {
-    height: 40px;
-    width: 40px;
-    margin-right: 15px;
+#page-head img {
+    /* height: 40px;
+    width: 40px; */
+    margin-right: .75em;
 }
 
-.page-head a {
-    text-decoration: none;
-    color: inherit;
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    margin-top: .5em;
 }
 
 h1 {
     font-size: 22pt;
     font-family: 'Delius Unicase', cursive;
-}
-
-.page-head ul {
-    margin-top: .5em;
-    list-style-type: none;
-    display: flex;
-}
-
-.page-head li {
-    margin-left: 1.2em;
 }
 
 h2 {
@@ -52,7 +45,7 @@ p {
 }
 
 .main {
-    height: 100vh;
+    height: 100%;
     background-image: url("https://images.unsplash.com/photo-1458134692397-fc4217ad1dc5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
     background-blend-mode: lighten;
     background-color: rgba(255, 255, 255, 0.6);
@@ -66,8 +59,8 @@ p {
 }
 
 .landing-slogan {
-    margin-left: 50px;
-    font-size: 24pt;
+    margin-left: 1.5em;
+    font-size: 2em;
     text-align: left;
     margin-top: 10%;
 }
@@ -100,6 +93,41 @@ p {
     min-height: 300px;
 }
 
+@media (max-width: 878px) {
+    #lend-btn {
+        margin-top: .5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .landing-devices {
+        display: none;
+    }
+    #lend-btn {
+        margin-top: 0.5em;
+    }
+    #lend-a-hand img {
+        display: none!important;
+    }
+}
+
+@media (max-width: 920px) {
+    .landing-devices {
+        max-height: 40vh;
+        min-height: 300px;
+    }
+    .landing-slogan {
+        margin-left: 1.5em;
+        font-size: 1.7em;
+        text-align: left;
+        margin-top: 10%;
+    }
+}
+
+.pl-3 {
+    padding-left: 2rem!important;
+}
+
 /* fonts  */
 
 h2, .page-head, .landing-slogan {
@@ -121,11 +149,12 @@ body>div, .landing-slogan>p {
 
 .solution p {
     font-size: 15pt;
+    margin-top: 0;
 }
 
 .solution img {
     margin-left: 25%;
-    max-width: 100px;
+    max-width: 90px;
     max-height: 100px;
 }
 
@@ -143,8 +172,8 @@ body>div, .landing-slogan>p {
     text-align: center;
 }
 
-.page-head {
-    background-color: #d0f9f2;
+#page-head {
+    background-color: #d0f9f2 !important;
 }
 
 .container {
@@ -158,6 +187,11 @@ body>div, .landing-slogan>p {
 .percentage {
     font-size: 60pt;
     font-family: 'Oswald', sans-serif;
+}
+
+.main-section {
+    padding-bottom: 90vh;
+    padding-top: 50px;
 }
 
 .section {
@@ -193,7 +227,7 @@ body>div, .landing-slogan>p {
 }
 
 #lend-a-hand {
-    background-color: #aeddd2;
+    background-color: #f6afb9;
 }
 
 #footer {
@@ -211,7 +245,7 @@ body>div, .landing-slogan>p {
 }
 
 #functions {
-    background-color: #f6afb9;
+    background-color: #aeddd2;
 }
 
 #functions h2 {
