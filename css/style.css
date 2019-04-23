@@ -48,7 +48,7 @@ p {
     height: 100%;
     background-image: url("https://images.unsplash.com/photo-1458134692397-fc4217ad1dc5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
     background-blend-mode: lighten;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.9);
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
@@ -278,5 +278,5 @@ body>div, .landing-slogan>p {
 }
 
 #problem li {
-    font-size: 15pt;
+    font-size: 12pt;
 }
