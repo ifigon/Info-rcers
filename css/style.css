@@ -172,7 +172,7 @@ body>div, .landing-slogan>p {
     text-align: center;
 }
 
-#page-head {
+#page-head, .bg-light {
     background-color: #d0f9f2 !important;
 }
 
