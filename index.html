@@ -5,125 +5,314 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <title>ASLearn</title>
 </head>
 
 <body>
     <div>
-        <div class="page-head">
-            <h1>ASLearn</h1>
-            <ul>
-                <li><a href="#problem">The Problem</a></li>
-                <li><a href="#team">Meet the Team</a></li>
-                <li><a href="#lend-a-hand">Lend a Hand</a></li>
-            </ul>
-        </div>
-        <div class="main">
-            <div class="container">
-                <div class="d-flex">
-                    <img src="img/ipads.png" alt="iPhone and iPad" />
-                    <div class="landing-slogan">
-                        Teaching children ASL through interaction with the world around them
-                        <p id="desc-hook">
-                            <b>TO DO:</b>
-                            short description that gives context and frames our problem or what users can really do with
-                            our app
-                        </p>
-                        <a id='download-app-store'
-                            href="https://www.figma.com/proto/ERaWwpVrKx4Gu0PUyc0t5zi1/Capstone?node-id=56%3A1&scaling=min-zoom"
-                            target="_blank">
-                            <img src="img/download-app-button.png" alt="download from app store button" />
-                        </a>
-                        <a class='btn btn-primary' href="#lend-a-hand" role="button">
-                            Lend a Hand
-                        </a>
-                    </div>
+        <nav id="page-head" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="d-flex flex-grow-1">
+                <h1 class="navbar-brand d-lg-inline-block" href="#">
+                    <img src="img/favicon.png" width="40" height="40" alt="ASLearn octopus logo" />
+                    ASLearn
+                </h1>
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
             </div>
-        </div>
-        <div id="problem">
-            <div class="container">
-                <h2>The Problem</h2>
-                <p>Learning and teaching American Sign Language (ASL) with children is difficult.
-                    We recognize if you are either a child who is deaf or hard-of-hearing, but those around you
-                    have no prior knowledge of ASL. In addition, you may be a parent of a deaf or hearing-impaired
-                    child, but do not know ASL and cannot teach it. We understand commonly available resources are
-                    limited in function, variety, and availability.</p>
-                <p>
-                    We aim to address these issues by creating an app that is kid-friendly, interactive, easily
-                    available that provides a personalized learning experience. Kids can use our app to take pictures
-                    of objects around them and instantly learn the ASL translation.<p>
-            </div>
-        </div>
-        <div id="team">
-            <h2>Meet the Team</h2>
-            <div class="d-flex pt-4">
-                <div class="member green d-flex">
-                    <img src="img/ian.png" alt="ian" />
-                    <div class="profile">
-                        <h3>Ian</h3>
-                        <p>I'm Ian, a current senior in Informatics at the University of Washington. I specialize in
-                            full stack web development and love to work on projects that make the world a better place.
-                            Reach me at: <a href="mailto:ifigon@uw.edu">ifigon@uw.edu</a></p>
-                    </div>
-                </div>
-                <div class="member yellow d-flex">
-                    <img src="img/julia.jpg" alt="Julia" />
-                    <div class="profile">
-                        <h3>Julia</h3>
-                        <p>My name is Julia and I am currently a senior in Informatics at UW!
-                            In the past I've worked doing Backend, IT, and also as a coding instructor for kids!
-                            I'm very excited to work on a project intended for kids.
-                            I can be reached at: <a href="mailto:jzaratan@uw.edu">jzaratan@uw.edu</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex">
-                <div class="member red d-flex">
-                    <img src="img/bonnie.jpg" alt="bonnie" />
-                    <div class="profile">
-                        <h3>Bonnie</h3>
-                        <p>Hello, my name is Bonnie and I am curretly a senior studying Informatics at
-                            the University of Washington. I have experience in full-stack, server-side, and
-                            iOS development. I am exctied to create impactful technologies for little kids,
-                            such as my little sister. You may reach me at: <a
-                                href="mailto:bonngyn@uw.edu">bonngyn@uw.edu</a></p>
-                    </div>
-                </div>
-                <div class="member green d-flex">
-                    <img src="img/andrea.jpg" alt="andrea" />
-                    <div class="profile">
-                        <h3>Andrea</h3>
-                        <p>Hi there, I’m Andrea. I’m a senior studying Informatics at the University of Washington,
-                            with focuses in front-end web development and data. Always excited to create positive,
-                            impactful technology. Connect with me at <a
-                                href="mailto:ljandrea@uw.edu">ljandrea@uw.edu</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="lend-a-hand">
-            <div class="container">
-                <h2>Lend a Hand</h2>
-                <p>If you would like to help us create this awesome app, please email one of us using our contact
-                    information above! We are looking for anyone who:</p>
-                <ul>
-                    <li>Knows ASL</li>
-                    <li>Or doesn't know ASL</li>
-                    <li>Has experience with the deaf or hearing impaired</li>
-                    <li>Would love to test our app and give feedback</li>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item"><a href="#problem" class="nav-link m-2 menu-item nav-active">The Problem</a>
+                    </li>
+                    <li class="nav-item"><a href="#solution" class="nav-link m-2 menu-item nav-active">Our Solution</a>
+                    </li>
+                    <li class="nav-item"><a href="#team" class="nav-link m-2 menu-item nav-active">Meet the Team</a>
+                    </li>
+                    <li class="nav-item"><a href="#lend-a-hand" class="nav-link m-2 menu-item nav-active">Lend a
+                            Hand</a></li>
                 </ul>
+            </div>
+        </nav>
+        <!-- </nav> -->
+        <main>
+            <div class="main section">
+                <div class="container">
+                    <div class="d-flex">
+                        <img class="landing-devices responsive" src="img/landing_page_devices-1.png"
+                            alt="iPhone and iPad" />
+                        <div class="landing-slogan">
+                            Teaching children ASL through interaction with the world around them
+                            <p id="desc-hook">
+                                A mobile learning aid for American Sign Language, all starting with the snap of a photo
+                            </p>
+                            <a id='download-app-store'
+                                href="https://www.figma.com/proto/ERaWwpVrKx4Gu0PUyc0t5zi1/Capstone?node-id=56%3A1&scaling=min-zoom"
+                                target="_blank"><img src="img/download-app-button.png"
+                                    alt="download from app store button" /></a>
+                            <a id='lend-btn' class='btn' href="#lend-a-hand" role="button">
+                                Lend a Hand
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="problem" class="section">
+                <div class="container">
+                    <h2>Did you know...</h2>
+                    <div class="percentages d-flex mb-5">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="percentage text-center">90%</div>
+                            <p class="text-center w-75 ml-auto mr-auto">of deaf individuals are born to hearing parents.
+                            </p>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="percentage text-center">
+                                500,000
+                            </div>
+                            <p class="text-center">deaf people use ASL as their natural language in the U.S. and Canada.
+                            </p>
+                        </div>
+                    </div>
+
+                    <h2>The Problem</h2>
+                    <div class="pt-3">
+                        <p>
+                            <span class="bold">Finding resources outside the classroom to teach and learn ASL can be
+                                difficult,</span>
+                            but especially when…
+                        </p>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <p>
+                                    You are a child who is deaf or hard-of-hearing, but those around you have no prior
+                                    knowledge of ASL
+                                </p>
+
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <p> You are the parent of a deaf or hearing-impaired child, but do not
+                                    know ASL and cannot teach your child</p>
+
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <p>Commonly available resources are limited due to
+                                </p>
+                                <ul>
+                                    <li>Limited free content</li>
+                                    <li>Little interaction with the child’s surroundings</li>
+                                    <li>No recent updates</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!-- <ul>
+                            <li>You are a child who is deaf or hard-of-hearing, but those around
+                                you have no prior knowledge of ASL</li>
+                            <li>You are the parent of a deaf or hearing-impaired child, but do not
+                                know ASL and cannot teach your child</li>
+                            <li>Commonly available resources are limited due to
+                                <ul>
+                                    <li>Limited free content</li>
+                                    <li>Little interaction with the child’s surroundings</li>
+                                    <li>No recent updates</li>
+                                </ul>
+                            </li>
+                        </ul> -->
+                        <p>
+                            Kids are curious, active, and love to learn! So we decided to make an app
+                            that caters to these qualities and improves current solutions.
+                        </p>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div id="solution" class="solution section">
+                <div class="container">
+                    <h2>Our Solution</h2>
+                    <p class="desc">A mobile application that will make learning ASL...</p>
+                    <div class="row pt-5">
+                        <div class="solution-box col-lg-6 row p-3">
+                            <div class="col-4">
+                                <img src="img/friendship.png" alt="kid-friendly-icon" />
+                            </div>
+                            <div class="pl-3 col-8">
+                                <h4>Kid-friendly</h4>
+                                <p>Simple, colorful, and exciting.</p>
+                            </div>
+                        </div>
+                        <div class="solution-box col-lg-6 row p-3">
+                            <div class="col-4">
+                                <img src="img/interactivity.png" alt="engaging-icon" />
+                            </div>
+                            <div class="pl-3 col-8">
+                                <h4>Engaging</h4>
+                                <p>Provide a fun and constantly interactive experience.</p>
+                            </div>
+                        </div>
+                        <div class="solution-box col-lg-6 row p-3">
+                            <div class="col-4">
+                                <img src="img/padlock-open.png" alt="padlock-open-icon" />
+                            </div>
+                            <div class="pl-3 col-8">
+                                <h4>Accessible</h4>
+                                <p>Smartphones/tablets = common resource. </p>
+                            </div>
+                        </div>
+                        <div class="solution-box col-lg-6 row p-3">
+                            <div class="col-4">
+                                <img src="img/person.png" alt="person-icon" />
+
+                            </div>
+                            <div class="pl-3 col-8">
+                                <h4>Personalized</h4>
+                                <p>Children will be able to readily learn the ASL most relevant to them. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
+            <div id="functions" class="section">
+                <div class="container">
+                    <div class="row pt-5">
+                        <div id="camera-func" class="function-text col-md-7 col-sm-12">
+                            <h2>Camera</h2>
+                            <p>Snap pictures of surrounding objects to get translations instantly.</p>
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <img src="img/screens/Camera.png" alt="support-icon" />
+                        </div>
 
-            <img src="img/iSchool.png" alt="iSchool logo" />
-        </div>
+                    </div>
+                    <div id="trans-func" class="row pt-5">
+                        <div class="col-md-5 col-sm-12">
+                            <img src="img/screens/Def - Dog.png" alt="support-icon" />
+                        </div>
+                        <div class="function-text col-md-7 col-sm-12">
+                            <h2>ASL Translation</h2>
+                            <p>View the ASL translation after taking a photo or exploring the dictionary.</p>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div id="dict-func" class="function-text col-md-7 col-sm-12">
+                            <h2>Dictionary</h2>
+                            <p>Search through the dictionary for translations in categories: ABC's,
+                                people, home, food, and animals.
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <img src="img/screens/Dict - Animals.png" alt="support-icon" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="lend-a-hand" class="section">
+                <div class="container">
+                    <h2>Lend a Hand</h2>
+                    <div class="row pt-5">
+                        <div class="col-md-8 col-sm-12">
+                            <p>If you would like to help us create this awesome app, please email one of us using our
+                                contact
+                                information below! We are looking for anyone who:</p>
+                            <ul>
+                                <li>Knows ASL</li>
+                                <li>Or doesn't know ASL</li>
+                                <li>Has experience with the deaf or hearing impaired</li>
+                                <li>Would love to test our app and give feedback</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <img src="img/support.png" alt="support-icon" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="team" class="section">
+                <div class="container">
+                    <h2>Meet the Team</h2>
+                    <p class="desc">UW Informatics '19</p>
+                    <div class="row pt-5">
+                        <div class="col-lg-3 p-3">
+                            <div class="prof-img">
+                                <img src="img/ian.png" alt="Ian" />
+                            </div>
+                            <div class="prof-text">
+                                <h4>Ian</h4>
+                                <span><a href="mailto:ifigon@uw.edu">ifigon@uw.edu</a></span>
+                                <p>I specialize
+                                    in full stack web development and love to work on projects that make the world a
+                                    better place.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 p-3">
+                            <div class="prof-img">
+                                <img src="img/julia.jpg" alt="Julia" />
+                            </div>
+                            <div class="prof-text">
+                                <h4>Julia</h4>
+                                <span><a href="mailto:jzaratan@uw.edu">jzaratan@uw.edu</a></span>
+                                <p> In the past I've worked doing Backend, IT, and also as a coding instructor for
+                                    kids! I'm very excited to work on a project for kids.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 p-3">
+                            <div class="prof-img">
+                                <img src="img/bonnie.jpg" alt="Bonnie" />
+                            </div>
+                            <div class="prof-text">
+                                <h4>Bonnie</h4>
+                                <span><a href="mailto:bonngyn@uw.edu">bonngyn@uw.edu</a></span>
+                                <p>I have experience in full-stack, server-side, and
+                                    iOS development. I am exctied to create impactful technologies for little kids. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 p-3">
+                            <div class="prof-img">
+                                <img src="img/andrea.jpg" alt="Andrea" />
+
+                            </div>
+                            <div class="prof-text">
+                                <h4>Andrea</h4>
+                                <span><a href="mailto:ljandrea@uw.edu">ljandrea@uw.edu</a></span>
+                                <p>I focus in front-end web development and data. I am always excited to create
+                                    positive, impactful technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer" class="section">
+                <a href="https://ischool.uw.edu/programs/informatics"><img src="img/iSchool.png"
+                        alt="iSchool logo" /></a>
+            </div>
+        </main>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

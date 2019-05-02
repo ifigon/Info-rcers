@@ -2,42 +2,39 @@ html {
     scroll-behavior: smooth;
 }
 
-body>div {
-    background-color: #83DECD;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.page-head {
-    background-image: url("../img/aslearn_bar_element.png");
+#page-head {
     background-size: cover;
     display: flex;
     justify-content: space-between;
-    height: 60px;
-    padding: 10px 40px;
-    font-family: 'Delius Unicase', cursive;
+    /* height: 60px; */
+    padding: 10px 50px;
 }
 
-.page-head a {
-    text-decoration: none;
-    color: inherit;
+#page-head img {
+    /* height: 40px;
+    width: 40px; */
+    margin-right: .75em;
+}
+
+.navbar-brand {
+    font-size: 30px;
 }
 
 h1 {
     font-size: 22pt;
+    font-family: 'Comfortaa', cursive;
 }
 
 .page-head ul {
-    margin-top: 8px;
-    list-style-type: none;
-    display: flex;
+    margin-top: .5em;
 }
 
-.page-head li {
-    margin-left: 20px;
+h1 {
+    font-size: 22pt;
+    font-family: 'Comfortaa', cursive;
 }
 
 h2 {
-    font-family: 'Delius Unicase', cursive;
     text-align: center;
     padding-top: 40px;
 }
@@ -46,45 +43,35 @@ h3 {
     text-align: center;
 }
 
-.profile {
-    width: 100%;
-}
-
-.profile>p {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 12pt;
-    margin: 10px 15px 10px;
-}
-
 p {
-    text-align: center;
-    font-size: 20pt;
+    text-align: left;
+    font-size: 15pt;
     margin-top: 20px;
 }
 
 .main {
-    height: 600px;
+    height: 100%;
     background-image: url("https://images.unsplash.com/photo-1458134692397-fc4217ad1dc5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
     background-blend-mode: lighten;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.9);
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
 }
 
+.main p {
+    padding-bottom: 1em;
+}
+
 .landing-slogan {
-    margin-left: 50px;
-    font-family: 'Delius Unicase', cursive;
-    font-size: 24pt;
-    text-align: center;
-    margin-top: 50px;
-    line-height: 2;
+    margin-left: 1.5em;
+    font-size: 2em;
+    text-align: left;
+    margin-top: 10%;
 }
 
 .landing-slogan>p {
     font-size: 14pt;
-    font-family: 'Open Sans', sans-serif;
 }
 
 #download-app-store>img {
@@ -93,70 +80,208 @@ p {
 }
 
 #problem {
-    height: 340px;
+    background-color: #feeabb;
 }
 
 #problem p, #lend-a-hand p {
-    font-size: 15pt
-}
-
-.green {
-    background-color: rgba(51, 166, 141, 0.5);
-    background-blend-mode: lighten;
-}
-
-.yellow {
-    background-color: rgba(246, 209, 108, 0.5);
-    background-blend-mode: lighten;
-}
-
-.red {
-    background-color: rgba(229, 59, 75, 0.5);
-    background-blend-mode: lighten;
-}
-
-.member {
-    width: 50%;
-    padding: 30px;
-}
-
-#lend-a-hand {
-    height: 600px;
-}
-
-#lend-a-hand ul {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 15pt;
 }
 
-#lend-a-hand img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+#lend-a-hand ul {
+    font-size: 15pt;
 }
 
-.member>img {
+.landing-devices {
+    margin-top: 5%;
     width: auto;
-    height: 150px;
-    border-radius: 50%;
+    max-height: 70vh;
+    min-height: 300px;
 }
 
-#team {
-    height: 700px;
-    background-image: url("https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+@media (max-width: 878px) {
+    #lend-btn {
+        margin-top: .5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .landing-devices {
+        display: none;
+    }
+    #lend-btn {
+        margin-top: 0.5em;
+    }
+    #lend-a-hand img {
+        display: none!important;
+    }
+}
+
+@media (max-width: 920px) {
+    .landing-devices {
+        max-height: 40vh;
+        min-height: 300px;
+    }
+    .landing-slogan {
+        margin-left: 1.5em;
+        font-size: 1.7em;
+        text-align: left;
+        margin-top: 10%;
+    }
+}
+
+.pl-3 {
+    padding-left: 2rem!important;
+}
+
+/* fonts  */
+
+h2, .page-head, .landing-slogan {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body>div, .landing-slogan>p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.solution {
+    background-image: url("../img/Group-1.png");
     background-blend-mode: lighten;
     background-color: rgba(255, 255, 255, 0.6);
     background-size: cover;
     background-attachment: fixed;
+    background-position: right top;
 }
 
-.main img {
-    margin-top: 50px;
-    margin-left: 10%;
-    opacity: 1.0;
+.solution p {
+    font-size: 15pt;
+    margin-top: 0;
+}
+
+.solution img {
+    margin-left: 25%;
+    max-width: 90px;
+    max-height: 100px;
+}
+
+#team img {
+    max-width: 130px;
+    max-height: 130px;
+}
+
+.solution img, #team img {
+    height: auto;
     width: auto;
-    height: 450px;
+}
+
+.desc {
+    text-align: center;
+}
+
+#page-head, .bg-light {
+    background-color: #d0f9f2 !important;
+}
+
+.container {
+    width: 70vw;
+}
+
+.percentages {
+    margin-top: 50px;
+}
+
+.percentage {
+    font-size: 60pt;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-section {
+    padding-bottom: 90vh;
+    padding-top: 50px;
+}
+
+.section {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+#team {
+    background-color: #cbb6cf;
+    text-align: center;
+}
+
+.prof-text p {
+    font-size: 12pt;
+}
+
+#team a {
+    color: #7b7b7b;
+}
+
+#team img {
+    width: auto;
+    border-radius: 50%;
+}
+
+#lend-a-hand img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lend-a-hand {
+    background-color: #f6afb9;
+}
+
+#footer {
+    background-color: #473951;
+    text-align: center;
+}
+
+#footer img {
+    height: 50px;
+    width: auto;
+}
+
+.prof-text {
+    margin-top: 20px;
+}
+
+#functions {
+    background-color: #aeddd2;
+}
+
+#functions h2 {
+    font-weight: bold;
+    text-align: left;
+}
+
+#functions img {
+    width: auto;
+    height: 80vh;
+    display: block;
+    margin: auto;
+}
+
+.function-text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main .btn {
+    background-color: #ff7277;
+    height: 50px;
+    line-height: 35px;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+#problem li {
+    font-size: 12pt;
 }
