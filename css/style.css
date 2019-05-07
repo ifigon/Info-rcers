@@ -43,6 +43,10 @@ h3 {
     text-align: center;
 }
 
+h6 {
+    padding-bottom: .5em;
+}
+
 p {
     text-align: left;
     font-size: 15pt;
@@ -161,6 +165,7 @@ body>div, .landing-slogan>p {
     margin-left: 25%;
     max-width: 90px;
     max-height: 100px;
+    padding-right: 1em;
 }
 
 #team img {
@@ -238,6 +243,7 @@ body>div, .landing-slogan>p {
 #footer {
     background-color: #473951;
     text-align: center;
+    height: 100px;
 }
 
 #footer img {
